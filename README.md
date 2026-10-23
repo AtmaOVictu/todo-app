@@ -104,6 +104,11 @@ license identifiers for dependencies; it is metadata, not a substitute for
 those licenses or notices. The Figma Community design linked above also has its
 own source terms.
 
+## Credits
+
+The original todo-app implementation is attributed to `rpritr` in the Git
+history. The VBL text and its copyright notice are reproduced in `LICENSE`.
+
 ## Available Scripts
 
 Run the backend server with json-server.
