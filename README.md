@@ -97,8 +97,12 @@ is [`REGISTER-NEIMENOVANIH.jsonl`](REGISTER-NEIMENOVANIH.jsonl).
 
 VBL 2.6 is a custom license and is not an SPDX-approved open-source license.
 The `package.json` license field points to the local text; it does not express
-an OSI-approved SPDX identifier. Third-party dependencies and design assets
-may have separate terms.
+an OSI-approved SPDX identifier. A license can grant only rights held by its
+licensor: third-party packages, logos, and design assets are not relicensed by
+this project and remain subject to their respective terms. The lockfile records
+license identifiers for dependencies; it is metadata, not a substitute for
+those licenses or notices. The Figma Community design linked above also has its
+own source terms.
 
 ## Available Scripts
 
