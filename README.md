@@ -48,7 +48,13 @@ Install the dependencies:
 npm install
 ```
 
-Start the development server:
+In one terminal, start the local task API:
+
+```bash
+npx json-server db.json
+```
+
+In a second terminal, start the development server:
 
 ```bash
 npm run dev
@@ -61,6 +67,11 @@ http://localhost:5173
 ```
 
 ## Available Scripts
+
+The app uses the local JSON Server at `http://localhost:3000` for task data.
+Task titles are not sent to the former third-party JSONSilo endpoint. A
+production deployment needs its own secured API; do not put private API keys in
+`VITE_*` browser environment variables.
 
 ```bash
 npm run dev
@@ -99,20 +110,14 @@ VBL 2.6 is a custom license and is not an SPDX-approved open-source license.
 The `package.json` license field points to the local text; it does not express
 an OSI-approved SPDX identifier. A license can grant only rights held by its
 licensor: third-party packages, logos, and design assets are not relicensed by
-this project and remain subject to their respective terms. The lockfile records
-license identifiers for dependencies; it is metadata, not a substitute for
-those licenses or notices. The Figma Community design linked above also has its
-own source terms.
+this project and remain subject to their respective terms. The browser bundle's
+third-party licenses are included in
+[`public/THIRD-PARTY-NOTICES.txt`](public/THIRD-PARTY-NOTICES.txt), which is
+copied into production builds. Other dependencies, including the separately
+run JSON server and development tools, remain subject to their own package
+terms. The Figma Community design linked above also has its own source terms.
 
 ## Credits
 
 The original todo-app implementation is attributed to `rpritr` in the Git
 history. The VBL text and its copyright notice are reproduced in `LICENSE`.
-
-## Available Scripts
-
-Run the backend server with json-server.
-
-```bash
-npx json-server db.json
-```
