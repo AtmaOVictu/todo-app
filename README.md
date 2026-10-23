@@ -86,6 +86,21 @@ npm run lint
 
 Checks the source code for linting issues.
 
+## License
+
+The repository's original software is offered under any one of the MIT,
+Apache-2.0, or GPL-3.0-or-later licenses; see [`LICENSE`](LICENSE). The SPDX
+expression is `MIT OR Apache-2.0 OR GPL-3.0-or-later`, meaning users may choose
+one of those licenses.
+
+The author's VBL 2.6 text is retained in
+[`VBL-2.6-ARCHIVE.md`](VBL-2.6-ARCHIVE.md) as a historical statement, not as an
+additional condition on the software. Its referenced registers remain available
+at [`REGISTER-NEIMENOVANIH.jsonl`](REGISTER-NEIMENOVANIH.jsonl),
+[`REGISTER-PADCEV.jsonl`](REGISTER-PADCEV.jsonl), and
+[`canon/DOVOLJENJA.md`](canon/DOVOLJENJA.md); they do not alter the software
+license. Third-party dependencies and design assets may have separate terms.
+
 ## Available Scripts
 
 Run the backend server with json-server.
