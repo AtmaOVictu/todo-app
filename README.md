@@ -99,14 +99,13 @@ Checks the source code for linting issues.
 
 ## License
 
-This repository is licensed under VBL 2.6; read [`LICENSE`](LICENSE) before
-using, copying, or distributing the work. The license requires copies to carry
-the unmodified license and contributor register. Its named-fall and permission
-records are [`REGISTER-PADCEV.jsonl`](REGISTER-PADCEV.jsonl) and
-[`canon/DOVOLJENJA.md`](canon/DOVOLJENJA.md). The current contributor register
-is [`REGISTER-NEIMENOVANIH.jsonl`](REGISTER-NEIMENOVANIH.jsonl).
+The operative license is VBL 10.3.0; read [`LICENSE`](LICENSE) and its
+file-by-file [`LICENSE-MANIFEST`](LICENSE-MANIFEST) before using, copying, or
+distributing covered material. The manifest currently identifies the VBL
+contributor and permission records only; it does not identify the inherited
+todo-app implementation or third-party material as covered by VBL.
 
-VBL 2.6 is a custom license and is not an SPDX-approved open-source license.
+VBL 10.3.0 is a custom license and is not an SPDX-approved open-source license.
 The `package.json` license field points to the local text; it does not express
 an OSI-approved SPDX identifier. A license can grant only rights held by its
 licensor: third-party packages, logos, and design assets are not relicensed by
